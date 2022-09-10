@@ -60,6 +60,15 @@ mark {
 	color: inherit;
 }
 
+span.small {
+  font-size: smaller;
+}
+
+.nficon {
+    background: url('../../images/nextflow-icon-128x128.png') no-repeat 7px 7px;
+    padding-left:30px;
+}
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -1656,3 +1665,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
